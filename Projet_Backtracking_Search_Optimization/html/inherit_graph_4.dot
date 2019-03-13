@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="projet_backtracking\l_search_optimization.SetUp\lParams",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classprojet__backtracking__search__optimization_1_1_set_up_params.html"];
+}

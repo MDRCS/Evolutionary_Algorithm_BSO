@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import java.net.*?>
+<?import javafx.scene.chart.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="1246.0" prefWidth="1352.0" stylesheets="@Display_Style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="visualize_bsa.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <LineChart fx:id="linechart" layoutX="32.0" layoutY="29.0" prefHeight="486.0" prefWidth="643.0" stylesheets="@Display_Style.css" title="F(1) Rastrigin" titleSide="BOTTOM" AnchorPane.bottomAnchor="731.0" AnchorPane.leftAnchor="32.0" AnchorPane.rightAnchor="677.0" AnchorPane.topAnchor="29.0">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+         <effect>
+            <Glow />
+         </effect>
+      </LineChart>
+      <LineChart fx:id="linechart1" layoutX="714.0" layoutY="29.0" prefHeight="472.0" prefWidth="597.0" stylesheets="@Display_Style.css" title="F(2) Ackley" titleSide="BOTTOM" AnchorPane.bottomAnchor="731.0" AnchorPane.leftAnchor="714.0" AnchorPane.rightAnchor="41.0" AnchorPane.topAnchor="43.0">
+         <effect>
+            <Glow />
+         </effect>
+         <xAxis>
+            <CategoryAxis side="BOTTOM" />
+         </xAxis>
+         <yAxis>
+            <NumberAxis side="LEFT" />
+         </yAxis>
+      </LineChart>
+      <LineChart fx:id="linechart3" layoutX="714.0" layoutY="673.0" prefHeight="472.0" prefWidth="597.0" stylesheets="@Display_Style.css" title="F(4) Weierstrass" titleSide="BOTTOM" AnchorPane.bottomAnchor="98.0" AnchorPane.leftAnchor="735.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="676.0">
+         <effect>
+            <Glow />
+         </effect>
+         <xAxis>
+            <CategoryAxis side="BOTTOM" />
+         </xAxis>
+         <yAxis>
+            <NumberAxis side="LEFT" />
+         </yAxis>
+      </LineChart>
+      <LineChart fx:id="linechart2" layoutX="32.0" layoutY="673.0" prefHeight="472.0" prefWidth="647.0" stylesheets="@Display_Style.css" title="F(3) Sphere" titleSide="BOTTOM" AnchorPane.bottomAnchor="101.0" AnchorPane.leftAnchor="66.0" AnchorPane.rightAnchor="639.0" AnchorPane.topAnchor="673.0">
+         <effect>
+            <Glow />
+         </effect>
+         <xAxis>
+            <CategoryAxis side="BOTTOM" />
+         </xAxis>
+         <yAxis>
+            <NumberAxis side="LEFT" />
+         </yAxis>
+      </LineChart>
+    </children>
+</AnchorPane>

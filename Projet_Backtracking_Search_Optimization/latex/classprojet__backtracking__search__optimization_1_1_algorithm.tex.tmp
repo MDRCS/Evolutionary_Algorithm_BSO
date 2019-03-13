@@ -1,0 +1,98 @@
+\hypertarget{classprojet__backtracking__search__optimization_1_1_algorithm}{}\section{projet\+\_\+backtracking\+\_\+search\+\_\+optimization.\+Algorithm Class Reference}
+\label{classprojet__backtracking__search__optimization_1_1_algorithm}\index{projet\+\_\+backtracking\+\_\+search\+\_\+optimization.\+Algorithm@{projet\+\_\+backtracking\+\_\+search\+\_\+optimization.\+Algorithm}}
+
+
+Collaboration diagram for projet\+\_\+backtracking\+\_\+search\+\_\+optimization.\+Algorithm\+:
+% FIG 0
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classprojet__backtracking__search__optimization_1_1_algorithm_acbfcb5d4e048c1beccb6f1f062fa3d6e}\label{classprojet__backtracking__search__optimization_1_1_algorithm_acbfcb5d4e048c1beccb6f1f062fa3d6e}} 
+{\bfseries Algorithm} (Array\+List$<$ Array\+List$<$ Double $>$$>$ Population, Array\+List$<$ Array\+List$<$ Double $>$$>$ Old\+Population, \mbox{\hyperlink{classprojet__backtracking__search__optimization_1_1_solution}{Solution}} sol, \mbox{\hyperlink{classprojet__backtracking__search__optimization_1_1_set_up_params}{Set\+Up\+Params}} setup, double Global\+Min, Array\+List$<$ Double $>$ FitnessP)
+\item 
+\mbox{\Hypertarget{classprojet__backtracking__search__optimization_1_1_algorithm_ae6e0cfdcd2efcfebd18a975b538e7020}\label{classprojet__backtracking__search__optimization_1_1_algorithm_ae6e0cfdcd2efcfebd18a975b538e7020}} 
+{\bfseries Algorithm} (Array\+List$<$ Array\+List$<$ Double $>$$>$ Mutant, Array\+List$<$ Array\+List$<$ Double $>$$>$ T, Array\+List$<$ Array\+List$<$ Integer $>$$>$ map, Array\+List$<$ Integer $>$ Indice\+OldP)
+\item 
+\mbox{\Hypertarget{classprojet__backtracking__search__optimization_1_1_algorithm_afc68e4e844dbddc774839043763da232}\label{classprojet__backtracking__search__optimization_1_1_algorithm_afc68e4e844dbddc774839043763da232}} 
+{\bfseries Algorithm} (Array\+List$<$ Array\+List$<$ Double $>$$>$ Globalminimizer, Array\+List$<$ Double $>$ fitnessT, int Randmut)
+\item 
+\mbox{\Hypertarget{classprojet__backtracking__search__optimization_1_1_algorithm_a215f6677f0226f43c0f9c909c33a7c04}\label{classprojet__backtracking__search__optimization_1_1_algorithm_a215f6677f0226f43c0f9c909c33a7c04}} 
+void {\bfseries Initialize} ()
+\item 
+\mbox{\Hypertarget{classprojet__backtracking__search__optimization_1_1_algorithm_a6d1a49ba3a7b7278381fd1c8ece08ca5}\label{classprojet__backtracking__search__optimization_1_1_algorithm_a6d1a49ba3a7b7278381fd1c8ece08ca5}} 
+Double {\bfseries Min} (Array\+List$<$ Double $>$ l)
+\item 
+\mbox{\Hypertarget{classprojet__backtracking__search__optimization_1_1_algorithm_ae0910bda781d2e7cb1a65d4981b854b6}\label{classprojet__backtracking__search__optimization_1_1_algorithm_ae0910bda781d2e7cb1a65d4981b854b6}} 
+Double {\bfseries Fitness} (int Num\+Obj\+Fun, Array\+List$<$ Double $>$ l)
+\item 
+\mbox{\Hypertarget{classprojet__backtracking__search__optimization_1_1_algorithm_a03630c54c57aecfd7e13460d6399ba23}\label{classprojet__backtracking__search__optimization_1_1_algorithm_a03630c54c57aecfd7e13460d6399ba23}} 
+void {\bfseries Mutation} (\mbox{\hyperlink{classprojet__backtracking__search__optimization_1_1_algorithm}{Algorithm}} a)
+\item 
+\mbox{\Hypertarget{classprojet__backtracking__search__optimization_1_1_algorithm_a75baf867ee24dfda01fb2d678d141b40}\label{classprojet__backtracking__search__optimization_1_1_algorithm_a75baf867ee24dfda01fb2d678d141b40}} 
+void {\bfseries Cross\+Over} (\mbox{\hyperlink{classprojet__backtracking__search__optimization_1_1_algorithm}{Algorithm}} a)
+\item 
+\mbox{\Hypertarget{classprojet__backtracking__search__optimization_1_1_algorithm_a66933d819fb9993a5d3a721daf3492c6}\label{classprojet__backtracking__search__optimization_1_1_algorithm_a66933d819fb9993a5d3a721daf3492c6}} 
+void {\bfseries Permutting} (\mbox{\hyperlink{classprojet__backtracking__search__optimization_1_1_algorithm}{Algorithm}} a)
+\item 
+\mbox{\Hypertarget{classprojet__backtracking__search__optimization_1_1_algorithm_a42c985ff10274a776db28561439187a2}\label{classprojet__backtracking__search__optimization_1_1_algorithm_a42c985ff10274a776db28561439187a2}} 
+void {\bfseries Boundary\+\_\+\+Control} (\mbox{\hyperlink{classprojet__backtracking__search__optimization_1_1_algorithm}{Algorithm}} a)
+\item 
+\mbox{\Hypertarget{classprojet__backtracking__search__optimization_1_1_algorithm_a046dc62d47426314f837efb98280b6be}\label{classprojet__backtracking__search__optimization_1_1_algorithm_a046dc62d47426314f837efb98280b6be}} 
+void {\bfseries Selection\+\_\+I} (\mbox{\hyperlink{classprojet__backtracking__search__optimization_1_1_algorithm}{Algorithm}} y)
+\item 
+\mbox{\Hypertarget{classprojet__backtracking__search__optimization_1_1_algorithm_a31ef54782bc461de4295cec242fe9354}\label{classprojet__backtracking__search__optimization_1_1_algorithm_a31ef54782bc461de4295cec242fe9354}} 
+void {\bfseries Selection\+\_\+\+II} (\mbox{\hyperlink{classprojet__backtracking__search__optimization_1_1_algorithm}{Algorithm}} a, \mbox{\hyperlink{classprojet__backtracking__search__optimization_1_1_algorithm}{Algorithm}} b)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classprojet__backtracking__search__optimization_1_1_algorithm_ad5569abc74e48e0e8cf285f08fa3620a}\label{classprojet__backtracking__search__optimization_1_1_algorithm_ad5569abc74e48e0e8cf285f08fa3620a}} 
+Array\+List$<$ Array\+List$<$ Double $>$ $>$ {\bfseries Population}
+\item 
+\mbox{\Hypertarget{classprojet__backtracking__search__optimization_1_1_algorithm_ab54035571255fab011d0a4c59cad9ff2}\label{classprojet__backtracking__search__optimization_1_1_algorithm_ab54035571255fab011d0a4c59cad9ff2}} 
+Array\+List$<$ Array\+List$<$ Double $>$ $>$ {\bfseries Old\+Population}
+\item 
+\mbox{\Hypertarget{classprojet__backtracking__search__optimization_1_1_algorithm_a7995448734f10cc6fb3e0d6ba462d711}\label{classprojet__backtracking__search__optimization_1_1_algorithm_a7995448734f10cc6fb3e0d6ba462d711}} 
+Array\+List$<$ Array\+List$<$ Double $>$ $>$ {\bfseries Mutant}
+\item 
+\mbox{\Hypertarget{classprojet__backtracking__search__optimization_1_1_algorithm_af0a89e3d3f8a693f82ae600cf561c1e3}\label{classprojet__backtracking__search__optimization_1_1_algorithm_af0a89e3d3f8a693f82ae600cf561c1e3}} 
+Array\+List$<$ Array\+List$<$ Double $>$ $>$ {\bfseries T}
+\item 
+\mbox{\Hypertarget{classprojet__backtracking__search__optimization_1_1_algorithm_add80aa074164828e2a45619fa3ec8138}\label{classprojet__backtracking__search__optimization_1_1_algorithm_add80aa074164828e2a45619fa3ec8138}} 
+Array\+List$<$ Array\+List$<$ Integer $>$ $>$ {\bfseries map}
+\item 
+\mbox{\Hypertarget{classprojet__backtracking__search__optimization_1_1_algorithm_a83331de7d8ede944a1f124557584c180}\label{classprojet__backtracking__search__optimization_1_1_algorithm_a83331de7d8ede944a1f124557584c180}} 
+Array\+List$<$ Array\+List$<$ Double $>$ $>$ {\bfseries Globalminimizer}
+\item 
+\mbox{\Hypertarget{classprojet__backtracking__search__optimization_1_1_algorithm_ad37331621b8f9759450c1c02f0b8f10f}\label{classprojet__backtracking__search__optimization_1_1_algorithm_ad37331621b8f9759450c1c02f0b8f10f}} 
+Array\+List$<$ Double $>$ {\bfseries fitnessT}
+\item 
+\mbox{\Hypertarget{classprojet__backtracking__search__optimization_1_1_algorithm_ad9ce5e37084226b14edca9824f1f9f7b}\label{classprojet__backtracking__search__optimization_1_1_algorithm_ad9ce5e37084226b14edca9824f1f9f7b}} 
+Array\+List$<$ Double $>$ {\bfseries FitnessP}
+\item 
+\mbox{\Hypertarget{classprojet__backtracking__search__optimization_1_1_algorithm_a6a6e00b50a244a22266b58503be342a2}\label{classprojet__backtracking__search__optimization_1_1_algorithm_a6a6e00b50a244a22266b58503be342a2}} 
+Array\+List$<$ Integer $>$ {\bfseries Indice\+OldP}
+\item 
+\mbox{\Hypertarget{classprojet__backtracking__search__optimization_1_1_algorithm_ab129e15a104e8134a17cdb1a7e150775}\label{classprojet__backtracking__search__optimization_1_1_algorithm_ab129e15a104e8134a17cdb1a7e150775}} 
+\mbox{\hyperlink{classprojet__backtracking__search__optimization_1_1_solution}{Solution}} {\bfseries sol}
+\item 
+\mbox{\Hypertarget{classprojet__backtracking__search__optimization_1_1_algorithm_a7bd8eb7a47533e8957751d65edff4db9}\label{classprojet__backtracking__search__optimization_1_1_algorithm_a7bd8eb7a47533e8957751d65edff4db9}} 
+\mbox{\hyperlink{classprojet__backtracking__search__optimization_1_1_set_up_params}{Set\+Up\+Params}} {\bfseries setup}
+\item 
+\mbox{\Hypertarget{classprojet__backtracking__search__optimization_1_1_algorithm_a4fb78db5c99e4db8e7f1321f6bb24ce3}\label{classprojet__backtracking__search__optimization_1_1_algorithm_a4fb78db5c99e4db8e7f1321f6bb24ce3}} 
+int {\bfseries Randmut}
+\item 
+\mbox{\Hypertarget{classprojet__backtracking__search__optimization_1_1_algorithm_a2c163e5fc771a2607ef8b933e2a4a0d8}\label{classprojet__backtracking__search__optimization_1_1_algorithm_a2c163e5fc771a2607ef8b933e2a4a0d8}} 
+double {\bfseries Global\+Min}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+book 
+\end{DoxyAuthor}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/projet\+\_\+backtracking\+\_\+search\+\_\+optimization/Algorithm.\+java\end{DoxyCompactItemize}
